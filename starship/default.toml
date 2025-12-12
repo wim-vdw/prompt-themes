@@ -15,6 +15,7 @@ style = "green"
 symbol = "💔 "
 
 [directory]
+truncate_to_repo = false
 truncation_length = 2
 truncation_symbol = '…/'
 
