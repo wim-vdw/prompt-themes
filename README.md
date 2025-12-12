@@ -7,9 +7,9 @@ across shells and operating systems.
 ```shell
 # On Linux or macOS
 export STARSHIP_CONFIG=~/example/non/default/path/starship.toml
-export POSH_THEME=~/example/non/default/path/oh-my-posh.json
+export POSH_THEME=~/example/non/default/path/oh-my-posh.yaml
 
 # On Windows PowerShell
 $ENV:STARSHIP_CONFIG = "$HOME\example\non\default\path\starship.toml"
-$ENV:POSH_THEME  = "$HOME\example\non\default\path\oh-my-posh.json"
+$ENV:POSH_THEME  = "$HOME\example\non\default\path\oh-my-posh.yaml"
 ```
