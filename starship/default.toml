@@ -9,10 +9,11 @@ trim_at = '.'
 [kubernetes]
 disabled = false
 
-[[kubernetes.contexts]]
-context_pattern = "rancher-desktop"
-style = "green"
-symbol = "💔 "
+contexts = [
+    { context_pattern = "rancher-desktop", style = "cyan", symbol = "🐳 ", context_alias = "docker" },
+    { context_pattern = "k3s-raspberry", style = "green", symbol = "🐮 " },
+    { context_pattern = "k3s-proxmox", style = "green", symbol = "🐮 " },
+]
 
 [directory]
 truncate_to_repo = false
