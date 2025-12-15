@@ -38,3 +38,6 @@ symbol = ' '
 
 [golang]
 symbol = ' '
+
+[terraform]
+disabled = true
