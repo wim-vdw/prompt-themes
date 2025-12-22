@@ -22,19 +22,18 @@ truncation_symbol = '…/'
 
 [azure]
 disabled = false
-format = 'on [$symbol($subscription)]($style) '
-symbol = '󰠅 '
-style = 'blue bold'
 
 [aws]
 format = 'on [$symbol($profile )(\($region\) )]($style)'
-style = 'bold yellow'
 symbol = '  '
 #symbol = '🅰 '
 #symbol = ' '
 
 [git_branch]
 symbol = ' '
+
+[git_metrics]
+disabled = false
 
 [golang]
 symbol = ' '
